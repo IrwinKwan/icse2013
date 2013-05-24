@@ -175,7 +175,7 @@ Empirical Studies (Analysis)
 - Coded to "tool output", "user input", "teamwork", "understandability", "workflow", and "tool design".
 - Found issues with every aspect, by her assessment the biggest problems were understandability 1st and lack of quick fixes 2nd. 
 - Some developers didn't like the output
-- Main takeaways: Developers don't like lists, developers want instant feedback, developers want ways to audit or vet bugs, and developers want to monitor/control automated fixes. Evidence that developers want to be kept "in the loop".
+- **My takeaway:** Developers don't like lists, developers want instant feedback, developers want ways to audit or vet bugs, and developers want to monitor/control automated fixes. Evidence that developers want to be kept "in the loop".
 
 ## [Exploring the Impact of Inter-smell Relations on Software Maintainability: An Empirical Study
 Aiko Yamashita and Leon Moonen](http://2013.icse-conferences.org/content/exploring-impact-inter-smell-relations-software-maintainability-empirical-study)
@@ -185,4 +185,16 @@ Aiko Yamashita and Leon Moonen](http://2013.icse-conferences.org/content/explori
 
 - Only 46% of observed problems related to code (part of these covered by detectable code smells)
 - Not enough data to analyze severity intersmell vs. direct severity
-- Main takeaway for me: Dependenecies are a problem! Need MORE awareness among relationships in code.
+- **My takeaway:** Dependenecies are a problem! Need MORE awareness among relationships in code.
+
+
+## [An Empirical Study on the Developers' Perception of Software Coupling
+Gabriele Bavota, Bogdan Dit, Rocco Oliveto, Massimiliano Di Penta, Denys Poshyvanyk, and Andrea De Lucia](http://2013.icse-conferences.org/content/technical-research)
+
+- Structural (static analysis), Dynamic (execution), Semantic (word similarity), Logical (files-changed-together). 
+- How does this align with perceptions of developers on coupling? 76 developers. What kind of coupling aligns best with developer's perceptions? Choose ArgoUML, jEdit and JHotDraw.
+- Method: data mining, manually executed functionality to attain code coverage. (66%, but also a lot of abstract and interfaces)
+- Asked the original developers about coupling. 6, 3, 3 developers. Also contacted academics to get 64 responses. Original developers were asked to evaluate only their own system but externals examined all systems.
+- Semantic, Structural align well with developer's perceptions.
+	- ActionVisibilityPrivate/ActionVisibilityProtected. Even though the two classes aren't clearly structural dependent, developers found that they were highly related.
+- **My Takeaway:** This work highlights the benefits and usefulness of SEMANTICS (words) for identifying relatedness between classes.
