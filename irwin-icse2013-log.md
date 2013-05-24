@@ -169,8 +169,7 @@ __2013-05-23	11:03:56__	Interviewed github developers. "Drive-by commit" on gith
 Empirical Studies (Analysis)
 =================
 
-## [Why Don't Software Developers Use Static Analysis Tools to Find Bugs?
-Brittany Johnson, Yoonki Song, Emerson Murphy-Hill, and Robert Bowdidge](http://2013.icse-conferences.org/content/why-dont-software-developers-use-static-analysis-tools-find-bugs)
+## [Why Don't Software Developers Use Static Analysis Tools to Find Bugs? Brittany Johnson, Yoonki Song, Emerson Murphy-Hill, and Robert Bowdidge](http://2013.icse-conferences.org/content/why-dont-software-developers-use-static-analysis-tools-find-bugs)
 
 - Used interview question/short response, gave them a computer and asked them to run FindBugs, and used Participatory Design.
 - Coded to "tool output", "user input", "teamwork", "understandability", "workflow", and "tool design".
@@ -183,7 +182,6 @@ Aiko Yamashita and Leon Moonen](http://2013.icse-conferences.org/content/explori
 
 - Big case study at Simula systems
 - Apparently everything can end up as a "Wide Interface". 
-
 
 - Only 46% of observed problems related to code (part of these covered by detectable code smells)
 - Not enough data to analyze severity intersmell vs. direct severity
