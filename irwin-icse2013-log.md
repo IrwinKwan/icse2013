@@ -165,11 +165,39 @@ __2013-05-23	11:03:41__	Developers rely highly on existing test cases to write n
 
 __2013-05-23	11:03:56__	Interviewed github developers. "Drive-by commit" on github projects.
 
+Process
+=======
+
+Papers were Prem's papers, Dana's paper
+
+## Process Metrics/Code Metrics
+
+Irwin
+
+## Domain Knowledge
+
+woo hoo!
+
+## Dual Ecological Measures
+
+David
+
+Requirements Engineering
+======
+
+## Nan's IFT talk
+
+
+## LDA on Comments and Requirements
+
+
 
 Empirical Studies (Analysis)
 =================
 
 ## [Why Don't Software Developers Use Static Analysis Tools to Find Bugs? Brittany Johnson, Yoonki Song, Emerson Murphy-Hill, and Robert Bowdidge](http://2013.icse-conferences.org/content/why-dont-software-developers-use-static-analysis-tools-find-bugs)
+
+May be of interest to Faezeh regarding how to design features in a development environment.
 
 - Used interview question/short response, gave them a computer and asked them to run FindBugs, and used Participatory Design.
 - Coded to "tool output", "user input", "teamwork", "understandability", "workflow", and "tool design".
@@ -179,6 +207,8 @@ Empirical Studies (Analysis)
 
 ## [Exploring the Impact of Inter-smell Relations on Software Maintainability: An Empirical Study
 Aiko Yamashita and Leon Moonen](http://2013.icse-conferences.org/content/exploring-impact-inter-smell-relations-software-maintainability-empirical-study)
+
+Something to look at for me to identify potential relationships between code modules in a case study.
 
 - Big case study at Simula systems
 - Apparently everything can end up as a "Wide Interface". 
@@ -191,6 +221,8 @@ Aiko Yamashita and Leon Moonen](http://2013.icse-conferences.org/content/explori
 ## [An Empirical Study on the Developers' Perception of Software Coupling
 Gabriele Bavota, Bogdan Dit, Rocco Oliveto, Massimiliano Di Penta, Denys Poshyvanyk, and Andrea De Lucia](http://2013.icse-conferences.org/content/technical-research)
 
+David may want to read this. 
+
 - Structural (static analysis), Dynamic (execution), Semantic (word similarity), Logical (files-changed-together). 
 - How does this align with perceptions of developers on coupling? 76 developers. What kind of coupling aligns best with developer's perceptions? Choose ArgoUML, jEdit and JHotDraw.
 - Method: data mining, manually executed functionality to attain code coverage. (66%, but also a lot of abstract and interfaces)
@@ -198,3 +230,4 @@ Gabriele Bavota, Bogdan Dit, Rocco Oliveto, Massimiliano Di Penta, Denys Poshyva
 - Semantic, Structural align well with developer's perceptions.
 	- ActionVisibilityPrivate/ActionVisibilityProtected. Even though the two classes aren't clearly structural dependent, developers found that they were highly related.
 - **My Takeaway:** This work highlights the benefits and usefulness of SEMANTICS (words) for identifying relatedness between classes.
+- Questions related to: "The common definition of coupling is pretty highly related to words... so you're asking them to confirm a definition."
