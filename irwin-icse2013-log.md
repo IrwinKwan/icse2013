@@ -165,7 +165,6 @@ __2013-05-23	11:03:41__	Developers rely highly on existing test cases to write n
 
 __2013-05-23	11:03:56__	Interviewed github developers. "Drive-by commit" on github projects.
 
-__2013-05-23	16:01:20__	
 
 Empirical Studies (Analysis)
 =================
@@ -179,3 +178,13 @@ Brittany Johnson, Yoonki Song, Emerson Murphy-Hill, and Robert Bowdidge](http://
 - Some developers didn't like the output
 - Main takeaways: Developers don't like lists, developers want instant feedback, developers want ways to audit or vet bugs, and developers want to monitor/control automated fixes. Evidence that developers want to be kept "in the loop".
 
+## [Exploring the Impact of Inter-smell Relations on Software Maintainability: An Empirical Study
+Aiko Yamashita and Leon Moonen](http://2013.icse-conferences.org/content/exploring-impact-inter-smell-relations-software-maintainability-empirical-study)
+
+- Big case study at Simula systems
+- Apparently everything can end up as a "Wide Interface". 
+
+
+- Only 46% of observed problems related to code (part of these covered by detectable code smells)
+- Not enough data to analyze severity intersmell vs. direct severity
+- Main takeaway for me: Dependenecies are a problem! Need MORE awareness among relationships in code.
