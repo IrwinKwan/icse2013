@@ -166,3 +166,16 @@ __2013-05-23	11:03:41__	Developers rely highly on existing test cases to write n
 __2013-05-23	11:03:56__	Interviewed github developers. "Drive-by commit" on github projects.
 
 __2013-05-23	16:01:20__	
+
+Empirical Studies (Analysis)
+=================
+
+## [Why Don't Software Developers Use Static Analysis Tools to Find Bugs?
+Brittany Johnson, Yoonki Song, Emerson Murphy-Hill, and Robert Bowdidge](http://2013.icse-conferences.org/content/why-dont-software-developers-use-static-analysis-tools-find-bugs)
+
+- Used interview question/short response, gave them a computer and asked them to run FindBugs, and used Participatory Design.
+- Coded to "tool output", "user input", "teamwork", "understandability", "workflow", and "tool design".
+- Found issues with every aspect, by her assessment the biggest problems were understandability 1st and lack of quick fixes 2nd. 
+- Some developers didn't like the output
+- Main takeaways: Developers don't like lists, developers want instant feedback, developers want ways to audit or vet bugs, and developers want to monitor/control automated fixes. Evidence that developers want to be kept "in the loop".
+
